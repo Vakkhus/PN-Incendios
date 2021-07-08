@@ -1,341 +1,342 @@
-",""PN"",""SC"",""PP"",""sup"""
-"2,""P.N.Hornopirén"",""actual"",25,13475"
-"3,""P.N.Hornopirén"",""actual"",50,0"
-"4,""P.N.Hornopirén"",""actual"",75,0"
-"5,""P.N.Hornopirén"",""actual"",100,25"
-"6,""P.N.Hornopirén"",""4.5 2050"",25,13500"
-"7,""P.N.Hornopirén"",""4.5 2050"",50,0"
-"8,""P.N.Hornopirén"",""4.5 2050"",75,0"
-"9,""P.N.Hornopirén"",""4.5 2050"",100,0"
-"10,""P.N.Hornopirén"",""4.5 2070"",25,13500"
-"11,""P.N.Hornopirén"",""4.5 2070"",50,0"
-"12,""P.N.Hornopirén"",""4.5 2070"",75,0"
-"13,""P.N.Hornopirén"",""4.5 2070"",100,0"
-"14,""P.N.Hornopirén"",""8.5 2050"",25,13500"
-"15,""P.N.Hornopirén"",""8.5 2050"",50,0"
-"16,""P.N.Hornopirén"",""8.5 2050"",75,0"
-"17,""P.N.Hornopirén"",""8.5 2050"",100,0"
-"18,""P.N.Hornopirén"",""8.5 2070"",25,12950"
-"19,""P.N.Hornopirén"",""8.5 2070"",50,525"
-"20,""P.N.Hornopirén"",""8.5 2070"",75,25"
-"21,""P.N.Hornopirén"",""8.5 2070"",100,0"
-"22,""P.N.Alerce Andino"",""actual"",25,15000"
-"23,""P.N.Alerce Andino"",""actual"",50,0"
-"24,""P.N.Alerce Andino"",""actual"",75,0"
-"25,""P.N.Alerce Andino"",""actual"",100,0"
-"26,""P.N.Alerce Andino"",""4.5 2050"",25,15000"
-"27,""P.N.Alerce Andino"",""4.5 2050"",50,0"
-"28,""P.N.Alerce Andino"",""4.5 2050"",75,0"
-"29,""P.N.Alerce Andino"",""4.5 2050"",100,0"
-"30,""P.N.Alerce Andino"",""4.5 2070"",25,15000"
-"31,""P.N.Alerce Andino"",""4.5 2070"",50,0"
-"32,""P.N.Alerce Andino"",""4.5 2070"",75,0"
-"33,""P.N.Alerce Andino"",""4.5 2070"",100,0"
-"34,""P.N.Alerce Andino"",""8.5 2050"",25,15000"
-"35,""P.N.Alerce Andino"",""8.5 2050"",50,0"
-"36,""P.N.Alerce Andino"",""8.5 2050"",75,0"
-"37,""P.N.Alerce Andino"",""8.5 2050"",100,0"
-"38,""P.N.Alerce Andino"",""8.5 2070"",25,15000"
-"39,""P.N.Alerce Andino"",""8.5 2070"",50,0"
-"40,""P.N.Alerce Andino"",""8.5 2070"",75,0"
-"41,""P.N.Alerce Andino"",""8.5 2070"",100,0"
-"42,""P.N.Laguna del Laja"",""actual"",25,5075"
-"43,""P.N.Laguna del Laja"",""actual"",50,275"
-"44,""P.N.Laguna del Laja"",""actual"",75,125"
-"45,""P.N.Laguna del Laja"",""actual"",100,425"
-"46,""P.N.Laguna del Laja"",""4.5 2050"",25,5725"
-"47,""P.N.Laguna del Laja"",""4.5 2050"",50,175"
-"48,""P.N.Laguna del Laja"",""4.5 2050"",75,0"
-"49,""P.N.Laguna del Laja"",""4.5 2050"",100,0"
-"50,""P.N.Laguna del Laja"",""4.5 2070"",25,5650"
-"51,""P.N.Laguna del Laja"",""4.5 2070"",50,250"
-"52,""P.N.Laguna del Laja"",""4.5 2070"",75,0"
-"53,""P.N.Laguna del Laja"",""4.5 2070"",100,0"
-"54,""P.N.Laguna del Laja"",""8.5 2050"",25,5675"
-"55,""P.N.Laguna del Laja"",""8.5 2050"",50,225"
-"56,""P.N.Laguna del Laja"",""8.5 2050"",75,0"
-"57,""P.N.Laguna del Laja"",""8.5 2050"",100,0"
-"58,""P.N.Laguna del Laja"",""8.5 2070"",25,4450"
-"59,""P.N.Laguna del Laja"",""8.5 2070"",50,1350"
-"60,""P.N.Laguna del Laja"",""8.5 2070"",75,100"
-"61,""P.N.Laguna del Laja"",""8.5 2070"",100,0"
-"62,""P.N.Vicente Pérez Rosales"",""actual"",25,85350"
-"63,""P.N.Vicente Pérez Rosales"",""actual"",50,325"
-"64,""P.N.Vicente Pérez Rosales"",""actual"",75,225"
-"65,""P.N.Vicente Pérez Rosales"",""actual"",100,1600"
-"66,""P.N.Vicente Pérez Rosales"",""4.5 2050"",25,80175"
-"67,""P.N.Vicente Pérez Rosales"",""4.5 2050"",50,5800"
-"68,""P.N.Vicente Pérez Rosales"",""4.5 2050"",75,1050"
-"69,""P.N.Vicente Pérez Rosales"",""4.5 2050"",100,475"
-"70,""P.N.Vicente Pérez Rosales"",""4.5 2070"",25,83550"
-"71,""P.N.Vicente Pérez Rosales"",""4.5 2070"",50,3075"
-"72,""P.N.Vicente Pérez Rosales"",""4.5 2070"",75,750"
-"73,""P.N.Vicente Pérez Rosales"",""4.5 2070"",100,125"
-"74,""P.N.Vicente Pérez Rosales"",""8.5 2050"",25,83300"
-"75,""P.N.Vicente Pérez Rosales"",""8.5 2050"",50,3200"
-"76,""P.N.Vicente Pérez Rosales"",""8.5 2050"",75,800"
-"77,""P.N.Vicente Pérez Rosales"",""8.5 2050"",100,200"
-"78,""P.N.Vicente Pérez Rosales"",""8.5 2070"",25,83825"
-"79,""P.N.Vicente Pérez Rosales"",""8.5 2070"",50,2775"
-"80,""P.N.Vicente Pérez Rosales"",""8.5 2070"",75,750"
-"81,""P.N.Vicente Pérez Rosales"",""8.5 2070"",100,150"
-"82,""P.N.Puyehue"",""actual"",25,36000"
-"83,""P.N.Puyehue"",""actual"",50,1075"
-"84,""P.N.Puyehue"",""actual"",75,1050"
-"85,""P.N.Puyehue"",""actual"",100,5900"
-"86,""P.N.Puyehue"",""4.5 2050"",25,35350"
-"87,""P.N.Puyehue"",""4.5 2050"",50,5825"
-"88,""P.N.Puyehue"",""4.5 2050"",75,2350"
-"89,""P.N.Puyehue"",""4.5 2050"",100,500"
-"90,""P.N.Puyehue"",""4.5 2070"",25,39000"
-"91,""P.N.Puyehue"",""4.5 2070"",50,3875"
-"92,""P.N.Puyehue"",""4.5 2070"",75,1050"
-"93,""P.N.Puyehue"",""4.5 2070"",100,100"
-"94,""P.N.Puyehue"",""8.5 2050"",25,36575"
-"95,""P.N.Puyehue"",""8.5 2050"",50,5325"
-"96,""P.N.Puyehue"",""8.5 2050"",75,1725"
-"97,""P.N.Puyehue"",""8.5 2050"",100,400"
-"98,""P.N.Puyehue"",""8.5 2070"",25,41050"
-"99,""P.N.Puyehue"",""8.5 2070"",50,2550"
-"100,""P.N.Puyehue"",""8.5 2070"",75,425"
-"101,""P.N.Puyehue"",""8.5 2070"",100,0"
-"102,""P.N.Palmas de Cocalán"",""actual"",25,225"
-"103,""P.N.Palmas de Cocalán"",""actual"",50,25"
-"104,""P.N.Palmas de Cocalán"",""actual"",75,0"
-"105,""P.N.Palmas de Cocalán"",""actual"",100,850"
-"106,""P.N.Palmas de Cocalán"",""4.5 2050"",25,1050"
-"107,""P.N.Palmas de Cocalán"",""4.5 2050"",50,50"
-"108,""P.N.Palmas de Cocalán"",""4.5 2050"",75,0"
-"109,""P.N.Palmas de Cocalán"",""4.5 2050"",100,0"
-"110,""P.N.Palmas de Cocalán"",""4.5 2070"",25,1050"
-"111,""P.N.Palmas de Cocalán"",""4.5 2070"",50,50"
-"112,""P.N.Palmas de Cocalán"",""4.5 2070"",75,0"
-"113,""P.N.Palmas de Cocalán"",""4.5 2070"",100,0"
-"114,""P.N.Palmas de Cocalán"",""8.5 2050"",25,1025"
-"115,""P.N.Palmas de Cocalán"",""8.5 2050"",50,75"
-"116,""P.N.Palmas de Cocalán"",""8.5 2050"",75,0"
-"117,""P.N.Palmas de Cocalán"",""8.5 2050"",100,0"
-"118,""P.N.Palmas de Cocalán"",""8.5 2070"",25,1025"
-"119,""P.N.Palmas de Cocalán"",""8.5 2070"",50,75"
-"120,""P.N.Palmas de Cocalán"",""8.5 2070"",75,0"
-"121,""P.N.Palmas de Cocalán"",""8.5 2070"",100,0"
-"122,""P.N.Villarrica"",""actual"",25,13900"
-"123,""P.N.Villarrica"",""actual"",50,400"
-"124,""P.N.Villarrica"",""actual"",75,625"
-"125,""P.N.Villarrica"",""actual"",100,4100"
-"126,""P.N.Villarrica"",""4.5 2050"",25,15500"
-"127,""P.N.Villarrica"",""4.5 2050"",50,1850"
-"128,""P.N.Villarrica"",""4.5 2050"",75,1125"
-"129,""P.N.Villarrica"",""4.5 2050"",100,550"
-"130,""P.N.Villarrica"",""4.5 2070"",25,14450"
-"131,""P.N.Villarrica"",""4.5 2070"",50,2300"
-"132,""P.N.Villarrica"",""4.5 2070"",75,1075"
-"133,""P.N.Villarrica"",""4.5 2070"",100,1200"
-"134,""P.N.Villarrica"",""8.5 2050"",25,15425"
-"135,""P.N.Villarrica"",""8.5 2050"",50,1700"
-"136,""P.N.Villarrica"",""8.5 2050"",75,1100"
-"137,""P.N.Villarrica"",""8.5 2050"",100,800"
-"138,""P.N.Villarrica"",""8.5 2070"",25,16750"
-"139,""P.N.Villarrica"",""8.5 2070"",50,1200"
-"140,""P.N.Villarrica"",""8.5 2070"",75,475"
-"141,""P.N.Villarrica"",""8.5 2070"",100,600"
-"142,""P.N.Radal 7 Tazas"",""actual"",25,1150"
-"143,""P.N.Radal 7 Tazas"",""actual"",50,100"
-"144,""P.N.Radal 7 Tazas"",""actual"",75,100"
-"145,""P.N.Radal 7 Tazas"",""actual"",100,125"
-"146,""P.N.Radal 7 Tazas"",""4.5 2050"",25,250"
-"147,""P.N.Radal 7 Tazas"",""4.5 2050"",50,425"
-"148,""P.N.Radal 7 Tazas"",""4.5 2050"",75,425"
-"149,""P.N.Radal 7 Tazas"",""4.5 2050"",100,375"
-"150,""P.N.Radal 7 Tazas"",""4.5 2070"",25,450"
-"151,""P.N.Radal 7 Tazas"",""4.5 2070"",50,400"
-"152,""P.N.Radal 7 Tazas"",""4.5 2070"",75,475"
-"153,""P.N.Radal 7 Tazas"",""4.5 2070"",100,150"
-"154,""P.N.Radal 7 Tazas"",""8.5 2050"",25,425"
-"155,""P.N.Radal 7 Tazas"",""8.5 2050"",50,275"
-"156,""P.N.Radal 7 Tazas"",""8.5 2050"",75,300"
-"157,""P.N.Radal 7 Tazas"",""8.5 2050"",100,475"
-"158,""P.N.Radal 7 Tazas"",""8.5 2070"",25,975"
-"159,""P.N.Radal 7 Tazas"",""8.5 2070"",50,350"
-"160,""P.N.Radal 7 Tazas"",""8.5 2070"",75,125"
-"161,""P.N.Radal 7 Tazas"",""8.5 2070"",100,25"
-"162,""P.N.Tolhuaca"",""actual"",25,600"
-"163,""P.N.Tolhuaca"",""actual"",50,25"
-"164,""P.N.Tolhuaca"",""actual"",75,50"
-"165,""P.N.Tolhuaca"",""actual"",100,1775"
-"166,""P.N.Tolhuaca"",""4.5 2050"",25,2450"
-"167,""P.N.Tolhuaca"",""4.5 2050"",50,0"
-"168,""P.N.Tolhuaca"",""4.5 2050"",75,0"
-"169,""P.N.Tolhuaca"",""4.5 2050"",100,0"
-"170,""P.N.Tolhuaca"",""4.5 2070"",25,2450"
-"171,""P.N.Tolhuaca"",""4.5 2070"",50,0"
-"172,""P.N.Tolhuaca"",""4.5 2070"",75,0"
-"173,""P.N.Tolhuaca"",""4.5 2070"",100,0"
-"174,""P.N.Tolhuaca"",""8.5 2050"",25,2375"
-"175,""P.N.Tolhuaca"",""8.5 2050"",50,75"
-"176,""P.N.Tolhuaca"",""8.5 2050"",75,0"
-"177,""P.N.Tolhuaca"",""8.5 2050"",100,0"
-"178,""P.N.Tolhuaca"",""8.5 2070"",25,2375"
-"179,""P.N.Tolhuaca"",""8.5 2070"",50,75"
-"180,""P.N.Tolhuaca"",""8.5 2070"",75,0"
-"181,""P.N.Tolhuaca"",""8.5 2070"",100,0"
-"182,""P.N.La Campana"",""actual"",25,2200"
-"183,""P.N.La Campana"",""actual"",50,250"
-"184,""P.N.La Campana"",""actual"",75,150"
-"185,""P.N.La Campana"",""actual"",100,75"
-"186,""P.N.La Campana"",""4.5 2050"",25,2675"
-"187,""P.N.La Campana"",""4.5 2050"",50,0"
-"188,""P.N.La Campana"",""4.5 2050"",75,0"
-"189,""P.N.La Campana"",""4.5 2050"",100,0"
-"190,""P.N.La Campana"",""4.5 2070"",25,2675"
-"191,""P.N.La Campana"",""4.5 2070"",50,0"
-"192,""P.N.La Campana"",""4.5 2070"",75,0"
-"193,""P.N.La Campana"",""4.5 2070"",100,0"
-"194,""P.N.La Campana"",""8.5 2050"",25,2675"
-"195,""P.N.La Campana"",""8.5 2050"",50,0"
-"196,""P.N.La Campana"",""8.5 2050"",75,0"
-"197,""P.N.La Campana"",""8.5 2050"",100,0"
-"198,""P.N.La Campana"",""8.5 2070"",25,2675"
-"199,""P.N.La Campana"",""8.5 2070"",50,0"
-"200,""P.N.La Campana"",""8.5 2070"",75,0"
-"201,""P.N.La Campana"",""8.5 2070"",100,0"
-"202,""P.N.Chiloé"",""actual"",25,15500"
-"203,""P.N.Chiloé"",""actual"",50,150"
-"204,""P.N.Chiloé"",""actual"",75,100"
-"205,""P.N.Chiloé"",""actual"",100,100"
-"206,""P.N.Chiloé"",""4.5 2050"",25,15850"
-"207,""P.N.Chiloé"",""4.5 2050"",50,0"
-"208,""P.N.Chiloé"",""4.5 2050"",75,0"
-"209,""P.N.Chiloé"",""4.5 2050"",100,0"
-"210,""P.N.Chiloé"",""4.5 2070"",25,15850"
-"211,""P.N.Chiloé"",""4.5 2070"",50,0"
-"212,""P.N.Chiloé"",""4.5 2070"",75,0"
-"213,""P.N.Chiloé"",""4.5 2070"",100,0"
-"214,""P.N.Chiloé"",""8.5 2050"",25,15850"
-"215,""P.N.Chiloé"",""8.5 2050"",50,0"
-"216,""P.N.Chiloé"",""8.5 2050"",75,0"
-"217,""P.N.Chiloé"",""8.5 2050"",100,0"
-"218,""P.N.Chiloé"",""8.5 2070"",25,15800"
-"219,""P.N.Chiloé"",""8.5 2070"",50,50"
-"220,""P.N.Chiloé"",""8.5 2070"",75,0"
-"221,""P.N.Chiloé"",""8.5 2070"",100,0"
-"222,""P.N.Huerquehue"",""actual"",25,4550"
-"223,""P.N.Huerquehue"",""actual"",50,25"
-"224,""P.N.Huerquehue"",""actual"",75,0"
-"225,""P.N.Huerquehue"",""actual"",100,0"
-"226,""P.N.Huerquehue"",""4.5 2050"",25,4575"
-"227,""P.N.Huerquehue"",""4.5 2050"",50,0"
-"228,""P.N.Huerquehue"",""4.5 2050"",75,0"
-"229,""P.N.Huerquehue"",""4.5 2050"",100,0"
-"230,""P.N.Huerquehue"",""4.5 2070"",25,4575"
-"231,""P.N.Huerquehue"",""4.5 2070"",50,0"
-"232,""P.N.Huerquehue"",""4.5 2070"",75,0"
-"233,""P.N.Huerquehue"",""4.5 2070"",100,0"
-"234,""P.N.Huerquehue"",""8.5 2050"",25,4575"
-"235,""P.N.Huerquehue"",""8.5 2050"",50,0"
-"236,""P.N.Huerquehue"",""8.5 2050"",75,0"
-"237,""P.N.Huerquehue"",""8.5 2050"",100,0"
-"238,""P.N.Huerquehue"",""8.5 2070"",25,4575"
-"239,""P.N.Huerquehue"",""8.5 2070"",50,0"
-"240,""P.N.Huerquehue"",""8.5 2070"",75,0"
-"241,""P.N.Huerquehue"",""8.5 2070"",100,0"
-"242,""P.N.Conguillío"",""actual"",25,9450"
-"243,""P.N.Conguillío"",""actual"",50,450"
-"244,""P.N.Conguillío"",""actual"",75,600"
-"245,""P.N.Conguillío"",""actual"",100,11375"
-"246,""P.N.Conguillío"",""4.5 2050"",25,21475"
-"247,""P.N.Conguillío"",""4.5 2050"",50,325"
-"248,""P.N.Conguillío"",""4.5 2050"",75,75"
-"249,""P.N.Conguillío"",""4.5 2050"",100,0"
-"250,""P.N.Conguillío"",""4.5 2070"",25,21600"
-"251,""P.N.Conguillío"",""4.5 2070"",50,200"
-"252,""P.N.Conguillío"",""4.5 2070"",75,75"
-"253,""P.N.Conguillío"",""4.5 2070"",100,0"
-"254,""P.N.Conguillío"",""8.5 2050"",25,21850"
-"255,""P.N.Conguillío"",""8.5 2050"",50,25"
-"256,""P.N.Conguillío"",""8.5 2050"",75,0"
-"257,""P.N.Conguillío"",""8.5 2050"",100,0"
-"258,""P.N.Conguillío"",""8.5 2070"",25,21750"
-"259,""P.N.Conguillío"",""8.5 2070"",50,100"
-"260,""P.N.Conguillío"",""8.5 2070"",75,25"
-"261,""P.N.Conguillío"",""8.5 2070"",100,0"
-"262,""P.N.Corcovado"",""actual"",25,116600"
-"263,""P.N.Corcovado"",""actual"",50,125"
-"264,""P.N.Corcovado"",""actual"",75,25"
-"265,""P.N.Corcovado"",""actual"",100,125"
-"266,""P.N.Corcovado"",""4.5 2050"",25,116825"
-"267,""P.N.Corcovado"",""4.5 2050"",50,50"
-"268,""P.N.Corcovado"",""4.5 2050"",75,0"
-"269,""P.N.Corcovado"",""4.5 2050"",100,0"
-"270,""P.N.Corcovado"",""4.5 2070"",25,116975"
-"271,""P.N.Corcovado"",""4.5 2070"",50,0"
-"272,""P.N.Corcovado"",""4.5 2070"",75,0"
-"273,""P.N.Corcovado"",""4.5 2070"",100,0"
-"274,""P.N.Corcovado"",""8.5 2050"",25,116775"
-"275,""P.N.Corcovado"",""8.5 2050"",50,100"
-"276,""P.N.Corcovado"",""8.5 2050"",75,0"
-"277,""P.N.Corcovado"",""8.5 2050"",100,0"
-"278,""P.N.Corcovado"",""8.5 2070"",25,116975"
-"279,""P.N.Corcovado"",""8.5 2070"",50,0"
-"280,""P.N.Corcovado"",""8.5 2070"",75,0"
-"281,""P.N.Corcovado"",""8.5 2070"",100,0"
-"282,""P.N.Alerce Costero"",""actual"",25,9475"
-"283,""P.N.Alerce Costero"",""actual"",50,0"
-"284,""P.N.Alerce Costero"",""actual"",75,0"
-"285,""P.N.Alerce Costero"",""actual"",100,0"
-"286,""P.N.Alerce Costero"",""4.5 2050"",25,9025"
-"287,""P.N.Alerce Costero"",""4.5 2050"",50,350"
-"288,""P.N.Alerce Costero"",""4.5 2050"",75,100"
-"289,""P.N.Alerce Costero"",""4.5 2050"",100,0"
-"290,""P.N.Alerce Costero"",""4.5 2070"",25,8800"
-"291,""P.N.Alerce Costero"",""4.5 2070"",50,525"
-"292,""P.N.Alerce Costero"",""4.5 2070"",75,75"
-"293,""P.N.Alerce Costero"",""4.5 2070"",100,75"
-"294,""P.N.Alerce Costero"",""8.5 2050"",25,8625"
-"295,""P.N.Alerce Costero"",""8.5 2050"",50,675"
-"296,""P.N.Alerce Costero"",""8.5 2050"",75,75"
-"297,""P.N.Alerce Costero"",""8.5 2050"",100,100"
-"298,""P.N.Alerce Costero"",""8.5 2070"",25,7175"
-"299,""P.N.Alerce Costero"",""8.5 2070"",50,1125"
-"300,""P.N.Alerce Costero"",""8.5 2070"",75,775"
-"301,""P.N.Alerce Costero"",""8.5 2070"",100,400"
-"302,""Parque Pumalín"",""actual"",25,90025"
-"303,""Parque Pumalín"",""actual"",50,2375"
-"304,""Parque Pumalín"",""actual"",75,1950"
-"305,""Parque Pumalín"",""actual"",100,16425"
-"306,""Parque Pumalín"",""4.5 2050"",25,110750"
-"307,""Parque Pumalín"",""4.5 2050"",50,25"
-"308,""Parque Pumalín"",""4.5 2050"",75,0"
-"309,""Parque Pumalín"",""4.5 2050"",100,0"
-"310,""Parque Pumalín"",""4.5 2070"",25,110950"
-"311,""Parque Pumalín"",""4.5 2070"",50,0"
-"312,""Parque Pumalín"",""4.5 2070"",75,0"
-"313,""Parque Pumalín"",""4.5 2070"",100,0"
-"314,""Parque Pumalín"",""8.5 2050"",25,110750"
-"315,""Parque Pumalín"",""8.5 2050"",50,25"
-"316,""Parque Pumalín"",""8.5 2050"",75,0"
-"317,""Parque Pumalín"",""8.5 2050"",100,0"
-"318,""Parque Pumalín"",""8.5 2070"",25,109575"
-"319,""Parque Pumalín"",""8.5 2070"",50,1375"
-"320,""Parque Pumalín"",""8.5 2070"",75,0"
-"321,""Parque Pumalín"",""8.5 2070"",100,0"
-"322,""P.N.Nahuelbuta"",""actual"",25,2575"
-"323,""P.N.Nahuelbuta"",""actual"",50,0"
-"324,""P.N.Nahuelbuta"",""actual"",75,0"
-"325,""P.N.Nahuelbuta"",""actual"",100,0"
-"326,""P.N.Nahuelbuta"",""4.5 2050"",25,2575"
-"327,""P.N.Nahuelbuta"",""4.5 2050"",50,0"
-"328,""P.N.Nahuelbuta"",""4.5 2050"",75,0"
-"329,""P.N.Nahuelbuta"",""4.5 2050"",100,0"
-"330,""P.N.Nahuelbuta"",""4.5 2070"",25,2575"
-"331,""P.N.Nahuelbuta"",""4.5 2070"",50,0"
-"332,""P.N.Nahuelbuta"",""4.5 2070"",75,0"
-"333,""P.N.Nahuelbuta"",""4.5 2070"",100,0"
-"334,""P.N.Nahuelbuta"",""8.5 2050"",25,2575"
-"335,""P.N.Nahuelbuta"",""8.5 2050"",50,0"
-"336,""P.N.Nahuelbuta"",""8.5 2050"",75,0"
-"337,""P.N.Nahuelbuta"",""8.5 2050"",100,0"
-"338,""P.N.Nahuelbuta"",""8.5 2070"",25,2575"
-"339,""P.N.Nahuelbuta"",""8.5 2070"",50,0"
-"340,""P.N.Nahuelbuta"",""8.5 2070"",75,0"
-"341,""P.N.Nahuelbuta"",""8.5 2070"",100,0"
+"","PN","SC","PP","sup"
+"1","x","x",0,0
+"2","P.N.Hornopirén","actual",25,13475
+"3","P.N.Hornopirén","actual",50,0
+"4","P.N.Hornopirén","actual",75,0
+"5","P.N.Hornopirén","actual",100,25
+"6","P.N.Hornopirén","4.5 2050",25,13500
+"7","P.N.Hornopirén","4.5 2050",50,0
+"8","P.N.Hornopirén","4.5 2050",75,0
+"9","P.N.Hornopirén","4.5 2050",100,0
+"10","P.N.Hornopirén","4.5 2070",25,13500
+"11","P.N.Hornopirén","4.5 2070",50,0
+"12","P.N.Hornopirén","4.5 2070",75,0
+"13","P.N.Hornopirén","4.5 2070",100,0
+"14","P.N.Hornopirén","8.5 2050",25,13500
+"15","P.N.Hornopirén","8.5 2050",50,0
+"16","P.N.Hornopirén","8.5 2050",75,0
+"17","P.N.Hornopirén","8.5 2050",100,0
+"18","P.N.Hornopirén","8.5 2070",25,12950
+"19","P.N.Hornopirén","8.5 2070",50,525
+"20","P.N.Hornopirén","8.5 2070",75,25
+"21","P.N.Hornopirén","8.5 2070",100,0
+"22","P.N.Alerce Andino","actual",25,15000
+"23","P.N.Alerce Andino","actual",50,0
+"24","P.N.Alerce Andino","actual",75,0
+"25","P.N.Alerce Andino","actual",100,0
+"26","P.N.Alerce Andino","4.5 2050",25,15000
+"27","P.N.Alerce Andino","4.5 2050",50,0
+"28","P.N.Alerce Andino","4.5 2050",75,0
+"29","P.N.Alerce Andino","4.5 2050",100,0
+"30","P.N.Alerce Andino","4.5 2070",25,15000
+"31","P.N.Alerce Andino","4.5 2070",50,0
+"32","P.N.Alerce Andino","4.5 2070",75,0
+"33","P.N.Alerce Andino","4.5 2070",100,0
+"34","P.N.Alerce Andino","8.5 2050",25,15000
+"35","P.N.Alerce Andino","8.5 2050",50,0
+"36","P.N.Alerce Andino","8.5 2050",75,0
+"37","P.N.Alerce Andino","8.5 2050",100,0
+"38","P.N.Alerce Andino","8.5 2070",25,15000
+"39","P.N.Alerce Andino","8.5 2070",50,0
+"40","P.N.Alerce Andino","8.5 2070",75,0
+"41","P.N.Alerce Andino","8.5 2070",100,0
+"42","P.N.Laguna del Laja","actual",25,5075
+"43","P.N.Laguna del Laja","actual",50,275
+"44","P.N.Laguna del Laja","actual",75,125
+"45","P.N.Laguna del Laja","actual",100,425
+"46","P.N.Laguna del Laja","4.5 2050",25,5725
+"47","P.N.Laguna del Laja","4.5 2050",50,175
+"48","P.N.Laguna del Laja","4.5 2050",75,0
+"49","P.N.Laguna del Laja","4.5 2050",100,0
+"50","P.N.Laguna del Laja","4.5 2070",25,5650
+"51","P.N.Laguna del Laja","4.5 2070",50,250
+"52","P.N.Laguna del Laja","4.5 2070",75,0
+"53","P.N.Laguna del Laja","4.5 2070",100,0
+"54","P.N.Laguna del Laja","8.5 2050",25,5675
+"55","P.N.Laguna del Laja","8.5 2050",50,225
+"56","P.N.Laguna del Laja","8.5 2050",75,0
+"57","P.N.Laguna del Laja","8.5 2050",100,0
+"58","P.N.Laguna del Laja","8.5 2070",25,4450
+"59","P.N.Laguna del Laja","8.5 2070",50,1350
+"60","P.N.Laguna del Laja","8.5 2070",75,100
+"61","P.N.Laguna del Laja","8.5 2070",100,0
+"62","P.N.Vicente Pérez Rosales","actual",25,85350
+"63","P.N.Vicente Pérez Rosales","actual",50,325
+"64","P.N.Vicente Pérez Rosales","actual",75,225
+"65","P.N.Vicente Pérez Rosales","actual",100,1600
+"66","P.N.Vicente Pérez Rosales","4.5 2050",25,80175
+"67","P.N.Vicente Pérez Rosales","4.5 2050",50,5800
+"68","P.N.Vicente Pérez Rosales","4.5 2050",75,1050
+"69","P.N.Vicente Pérez Rosales","4.5 2050",100,475
+"70","P.N.Vicente Pérez Rosales","4.5 2070",25,83550
+"71","P.N.Vicente Pérez Rosales","4.5 2070",50,3075
+"72","P.N.Vicente Pérez Rosales","4.5 2070",75,750
+"73","P.N.Vicente Pérez Rosales","4.5 2070",100,125
+"74","P.N.Vicente Pérez Rosales","8.5 2050",25,83300
+"75","P.N.Vicente Pérez Rosales","8.5 2050",50,3200
+"76","P.N.Vicente Pérez Rosales","8.5 2050",75,800
+"77","P.N.Vicente Pérez Rosales","8.5 2050",100,200
+"78","P.N.Vicente Pérez Rosales","8.5 2070",25,83825
+"79","P.N.Vicente Pérez Rosales","8.5 2070",50,2775
+"80","P.N.Vicente Pérez Rosales","8.5 2070",75,750
+"81","P.N.Vicente Pérez Rosales","8.5 2070",100,150
+"82","P.N.Puyehue","actual",25,36000
+"83","P.N.Puyehue","actual",50,1075
+"84","P.N.Puyehue","actual",75,1050
+"85","P.N.Puyehue","actual",100,5900
+"86","P.N.Puyehue","4.5 2050",25,35350
+"87","P.N.Puyehue","4.5 2050",50,5825
+"88","P.N.Puyehue","4.5 2050",75,2350
+"89","P.N.Puyehue","4.5 2050",100,500
+"90","P.N.Puyehue","4.5 2070",25,39000
+"91","P.N.Puyehue","4.5 2070",50,3875
+"92","P.N.Puyehue","4.5 2070",75,1050
+"93","P.N.Puyehue","4.5 2070",100,100
+"94","P.N.Puyehue","8.5 2050",25,36575
+"95","P.N.Puyehue","8.5 2050",50,5325
+"96","P.N.Puyehue","8.5 2050",75,1725
+"97","P.N.Puyehue","8.5 2050",100,400
+"98","P.N.Puyehue","8.5 2070",25,41050
+"99","P.N.Puyehue","8.5 2070",50,2550
+"100","P.N.Puyehue","8.5 2070",75,425
+"101","P.N.Puyehue","8.5 2070",100,0
+"102","P.N.Palmas de Cocalán","actual",25,225
+"103","P.N.Palmas de Cocalán","actual",50,25
+"104","P.N.Palmas de Cocalán","actual",75,0
+"105","P.N.Palmas de Cocalán","actual",100,850
+"106","P.N.Palmas de Cocalán","4.5 2050",25,1050
+"107","P.N.Palmas de Cocalán","4.5 2050",50,50
+"108","P.N.Palmas de Cocalán","4.5 2050",75,0
+"109","P.N.Palmas de Cocalán","4.5 2050",100,0
+"110","P.N.Palmas de Cocalán","4.5 2070",25,1050
+"111","P.N.Palmas de Cocalán","4.5 2070",50,50
+"112","P.N.Palmas de Cocalán","4.5 2070",75,0
+"113","P.N.Palmas de Cocalán","4.5 2070",100,0
+"114","P.N.Palmas de Cocalán","8.5 2050",25,1025
+"115","P.N.Palmas de Cocalán","8.5 2050",50,75
+"116","P.N.Palmas de Cocalán","8.5 2050",75,0
+"117","P.N.Palmas de Cocalán","8.5 2050",100,0
+"118","P.N.Palmas de Cocalán","8.5 2070",25,1025
+"119","P.N.Palmas de Cocalán","8.5 2070",50,75
+"120","P.N.Palmas de Cocalán","8.5 2070",75,0
+"121","P.N.Palmas de Cocalán","8.5 2070",100,0
+"122","P.N.Villarrica","actual",25,13900
+"123","P.N.Villarrica","actual",50,400
+"124","P.N.Villarrica","actual",75,625
+"125","P.N.Villarrica","actual",100,4100
+"126","P.N.Villarrica","4.5 2050",25,15500
+"127","P.N.Villarrica","4.5 2050",50,1850
+"128","P.N.Villarrica","4.5 2050",75,1125
+"129","P.N.Villarrica","4.5 2050",100,550
+"130","P.N.Villarrica","4.5 2070",25,14450
+"131","P.N.Villarrica","4.5 2070",50,2300
+"132","P.N.Villarrica","4.5 2070",75,1075
+"133","P.N.Villarrica","4.5 2070",100,1200
+"134","P.N.Villarrica","8.5 2050",25,15425
+"135","P.N.Villarrica","8.5 2050",50,1700
+"136","P.N.Villarrica","8.5 2050",75,1100
+"137","P.N.Villarrica","8.5 2050",100,800
+"138","P.N.Villarrica","8.5 2070",25,16750
+"139","P.N.Villarrica","8.5 2070",50,1200
+"140","P.N.Villarrica","8.5 2070",75,475
+"141","P.N.Villarrica","8.5 2070",100,600
+"142","P.N.Radal 7 Tazas","actual",25,1150
+"143","P.N.Radal 7 Tazas","actual",50,100
+"144","P.N.Radal 7 Tazas","actual",75,100
+"145","P.N.Radal 7 Tazas","actual",100,125
+"146","P.N.Radal 7 Tazas","4.5 2050",25,250
+"147","P.N.Radal 7 Tazas","4.5 2050",50,425
+"148","P.N.Radal 7 Tazas","4.5 2050",75,425
+"149","P.N.Radal 7 Tazas","4.5 2050",100,375
+"150","P.N.Radal 7 Tazas","4.5 2070",25,450
+"151","P.N.Radal 7 Tazas","4.5 2070",50,400
+"152","P.N.Radal 7 Tazas","4.5 2070",75,475
+"153","P.N.Radal 7 Tazas","4.5 2070",100,150
+"154","P.N.Radal 7 Tazas","8.5 2050",25,425
+"155","P.N.Radal 7 Tazas","8.5 2050",50,275
+"156","P.N.Radal 7 Tazas","8.5 2050",75,300
+"157","P.N.Radal 7 Tazas","8.5 2050",100,475
+"158","P.N.Radal 7 Tazas","8.5 2070",25,975
+"159","P.N.Radal 7 Tazas","8.5 2070",50,350
+"160","P.N.Radal 7 Tazas","8.5 2070",75,125
+"161","P.N.Radal 7 Tazas","8.5 2070",100,25
+"162","P.N.Tolhuaca","actual",25,600
+"163","P.N.Tolhuaca","actual",50,25
+"164","P.N.Tolhuaca","actual",75,50
+"165","P.N.Tolhuaca","actual",100,1775
+"166","P.N.Tolhuaca","4.5 2050",25,2450
+"167","P.N.Tolhuaca","4.5 2050",50,0
+"168","P.N.Tolhuaca","4.5 2050",75,0
+"169","P.N.Tolhuaca","4.5 2050",100,0
+"170","P.N.Tolhuaca","4.5 2070",25,2450
+"171","P.N.Tolhuaca","4.5 2070",50,0
+"172","P.N.Tolhuaca","4.5 2070",75,0
+"173","P.N.Tolhuaca","4.5 2070",100,0
+"174","P.N.Tolhuaca","8.5 2050",25,2375
+"175","P.N.Tolhuaca","8.5 2050",50,75
+"176","P.N.Tolhuaca","8.5 2050",75,0
+"177","P.N.Tolhuaca","8.5 2050",100,0
+"178","P.N.Tolhuaca","8.5 2070",25,2375
+"179","P.N.Tolhuaca","8.5 2070",50,75
+"180","P.N.Tolhuaca","8.5 2070",75,0
+"181","P.N.Tolhuaca","8.5 2070",100,0
+"182","P.N.La Campana","actual",25,2200
+"183","P.N.La Campana","actual",50,250
+"184","P.N.La Campana","actual",75,150
+"185","P.N.La Campana","actual",100,75
+"186","P.N.La Campana","4.5 2050",25,2675
+"187","P.N.La Campana","4.5 2050",50,0
+"188","P.N.La Campana","4.5 2050",75,0
+"189","P.N.La Campana","4.5 2050",100,0
+"190","P.N.La Campana","4.5 2070",25,2675
+"191","P.N.La Campana","4.5 2070",50,0
+"192","P.N.La Campana","4.5 2070",75,0
+"193","P.N.La Campana","4.5 2070",100,0
+"194","P.N.La Campana","8.5 2050",25,2675
+"195","P.N.La Campana","8.5 2050",50,0
+"196","P.N.La Campana","8.5 2050",75,0
+"197","P.N.La Campana","8.5 2050",100,0
+"198","P.N.La Campana","8.5 2070",25,2675
+"199","P.N.La Campana","8.5 2070",50,0
+"200","P.N.La Campana","8.5 2070",75,0
+"201","P.N.La Campana","8.5 2070",100,0
+"202","P.N.Chiloé","actual",25,15500
+"203","P.N.Chiloé","actual",50,150
+"204","P.N.Chiloé","actual",75,100
+"205","P.N.Chiloé","actual",100,100
+"206","P.N.Chiloé","4.5 2050",25,15850
+"207","P.N.Chiloé","4.5 2050",50,0
+"208","P.N.Chiloé","4.5 2050",75,0
+"209","P.N.Chiloé","4.5 2050",100,0
+"210","P.N.Chiloé","4.5 2070",25,15850
+"211","P.N.Chiloé","4.5 2070",50,0
+"212","P.N.Chiloé","4.5 2070",75,0
+"213","P.N.Chiloé","4.5 2070",100,0
+"214","P.N.Chiloé","8.5 2050",25,15850
+"215","P.N.Chiloé","8.5 2050",50,0
+"216","P.N.Chiloé","8.5 2050",75,0
+"217","P.N.Chiloé","8.5 2050",100,0
+"218","P.N.Chiloé","8.5 2070",25,15800
+"219","P.N.Chiloé","8.5 2070",50,50
+"220","P.N.Chiloé","8.5 2070",75,0
+"221","P.N.Chiloé","8.5 2070",100,0
+"222","P.N.Huerquehue","actual",25,4550
+"223","P.N.Huerquehue","actual",50,25
+"224","P.N.Huerquehue","actual",75,0
+"225","P.N.Huerquehue","actual",100,0
+"226","P.N.Huerquehue","4.5 2050",25,4575
+"227","P.N.Huerquehue","4.5 2050",50,0
+"228","P.N.Huerquehue","4.5 2050",75,0
+"229","P.N.Huerquehue","4.5 2050",100,0
+"230","P.N.Huerquehue","4.5 2070",25,4575
+"231","P.N.Huerquehue","4.5 2070",50,0
+"232","P.N.Huerquehue","4.5 2070",75,0
+"233","P.N.Huerquehue","4.5 2070",100,0
+"234","P.N.Huerquehue","8.5 2050",25,4575
+"235","P.N.Huerquehue","8.5 2050",50,0
+"236","P.N.Huerquehue","8.5 2050",75,0
+"237","P.N.Huerquehue","8.5 2050",100,0
+"238","P.N.Huerquehue","8.5 2070",25,4575
+"239","P.N.Huerquehue","8.5 2070",50,0
+"240","P.N.Huerquehue","8.5 2070",75,0
+"241","P.N.Huerquehue","8.5 2070",100,0
+"242","P.N.Conguillío","actual",25,9450
+"243","P.N.Conguillío","actual",50,450
+"244","P.N.Conguillío","actual",75,600
+"245","P.N.Conguillío","actual",100,11375
+"246","P.N.Conguillío","4.5 2050",25,21475
+"247","P.N.Conguillío","4.5 2050",50,325
+"248","P.N.Conguillío","4.5 2050",75,75
+"249","P.N.Conguillío","4.5 2050",100,0
+"250","P.N.Conguillío","4.5 2070",25,21600
+"251","P.N.Conguillío","4.5 2070",50,200
+"252","P.N.Conguillío","4.5 2070",75,75
+"253","P.N.Conguillío","4.5 2070",100,0
+"254","P.N.Conguillío","8.5 2050",25,21850
+"255","P.N.Conguillío","8.5 2050",50,25
+"256","P.N.Conguillío","8.5 2050",75,0
+"257","P.N.Conguillío","8.5 2050",100,0
+"258","P.N.Conguillío","8.5 2070",25,21750
+"259","P.N.Conguillío","8.5 2070",50,100
+"260","P.N.Conguillío","8.5 2070",75,25
+"261","P.N.Conguillío","8.5 2070",100,0
+"262","P.N.Corcovado","actual",25,116600
+"263","P.N.Corcovado","actual",50,125
+"264","P.N.Corcovado","actual",75,25
+"265","P.N.Corcovado","actual",100,125
+"266","P.N.Corcovado","4.5 2050",25,116825
+"267","P.N.Corcovado","4.5 2050",50,50
+"268","P.N.Corcovado","4.5 2050",75,0
+"269","P.N.Corcovado","4.5 2050",100,0
+"270","P.N.Corcovado","4.5 2070",25,116975
+"271","P.N.Corcovado","4.5 2070",50,0
+"272","P.N.Corcovado","4.5 2070",75,0
+"273","P.N.Corcovado","4.5 2070",100,0
+"274","P.N.Corcovado","8.5 2050",25,116775
+"275","P.N.Corcovado","8.5 2050",50,100
+"276","P.N.Corcovado","8.5 2050",75,0
+"277","P.N.Corcovado","8.5 2050",100,0
+"278","P.N.Corcovado","8.5 2070",25,116975
+"279","P.N.Corcovado","8.5 2070",50,0
+"280","P.N.Corcovado","8.5 2070",75,0
+"281","P.N.Corcovado","8.5 2070",100,0
+"282","P.N.Alerce Costero","actual",25,9475
+"283","P.N.Alerce Costero","actual",50,0
+"284","P.N.Alerce Costero","actual",75,0
+"285","P.N.Alerce Costero","actual",100,0
+"286","P.N.Alerce Costero","4.5 2050",25,9025
+"287","P.N.Alerce Costero","4.5 2050",50,350
+"288","P.N.Alerce Costero","4.5 2050",75,100
+"289","P.N.Alerce Costero","4.5 2050",100,0
+"290","P.N.Alerce Costero","4.5 2070",25,8800
+"291","P.N.Alerce Costero","4.5 2070",50,525
+"292","P.N.Alerce Costero","4.5 2070",75,75
+"293","P.N.Alerce Costero","4.5 2070",100,75
+"294","P.N.Alerce Costero","8.5 2050",25,8625
+"295","P.N.Alerce Costero","8.5 2050",50,675
+"296","P.N.Alerce Costero","8.5 2050",75,75
+"297","P.N.Alerce Costero","8.5 2050",100,100
+"298","P.N.Alerce Costero","8.5 2070",25,7175
+"299","P.N.Alerce Costero","8.5 2070",50,1125
+"300","P.N.Alerce Costero","8.5 2070",75,775
+"301","P.N.Alerce Costero","8.5 2070",100,400
+"302","Parque Pumalín","actual",25,90025
+"303","Parque Pumalín","actual",50,2375
+"304","Parque Pumalín","actual",75,1950
+"305","Parque Pumalín","actual",100,16425
+"306","Parque Pumalín","4.5 2050",25,110750
+"307","Parque Pumalín","4.5 2050",50,25
+"308","Parque Pumalín","4.5 2050",75,0
+"309","Parque Pumalín","4.5 2050",100,0
+"310","Parque Pumalín","4.5 2070",25,110950
+"311","Parque Pumalín","4.5 2070",50,0
+"312","Parque Pumalín","4.5 2070",75,0
+"313","Parque Pumalín","4.5 2070",100,0
+"314","Parque Pumalín","8.5 2050",25,110750
+"315","Parque Pumalín","8.5 2050",50,25
+"316","Parque Pumalín","8.5 2050",75,0
+"317","Parque Pumalín","8.5 2050",100,0
+"318","Parque Pumalín","8.5 2070",25,109575
+"319","Parque Pumalín","8.5 2070",50,1375
+"320","Parque Pumalín","8.5 2070",75,0
+"321","Parque Pumalín","8.5 2070",100,0
+"322","P.N.Nahuelbuta","actual",25,2575
+"323","P.N.Nahuelbuta","actual",50,0
+"324","P.N.Nahuelbuta","actual",75,0
+"325","P.N.Nahuelbuta","actual",100,0
+"326","P.N.Nahuelbuta","4.5 2050",25,2575
+"327","P.N.Nahuelbuta","4.5 2050",50,0
+"328","P.N.Nahuelbuta","4.5 2050",75,0
+"329","P.N.Nahuelbuta","4.5 2050",100,0
+"330","P.N.Nahuelbuta","4.5 2070",25,2575
+"331","P.N.Nahuelbuta","4.5 2070",50,0
+"332","P.N.Nahuelbuta","4.5 2070",75,0
+"333","P.N.Nahuelbuta","4.5 2070",100,0
+"334","P.N.Nahuelbuta","8.5 2050",25,2575
+"335","P.N.Nahuelbuta","8.5 2050",50,0
+"336","P.N.Nahuelbuta","8.5 2050",75,0
+"337","P.N.Nahuelbuta","8.5 2050",100,0
+"338","P.N.Nahuelbuta","8.5 2070",25,2575
+"339","P.N.Nahuelbuta","8.5 2070",50,0
+"340","P.N.Nahuelbuta","8.5 2070",75,0
+"341","P.N.Nahuelbuta","8.5 2070",100,0
