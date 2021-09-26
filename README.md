@@ -11,7 +11,7 @@ Se utilizaron los datos de **CHELSA** como variable climática. Estos datos fuer
 ## Influencia humana
 Dos variables fueron testeadas para incorporar el efecto producido por la influencia humana en la ocurrencia de incendios: La densidad poblacional (Columbia University, 2018) y la Modificación Humana Global (Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems))  por separado. 
 
-Se cree que la mayoría de los incendios en el sur de Chile son causados ​​por humanos, por usamos población como predictor de incendios. 
+Se cree que la mayoría de los incendios en el sur de Chile son causados por humanos, por usamos población como predictor de incendios. 
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/poblacion.png?raw=true)
 
 Sin embargo, una variable más completa para medir el impacto de la actividad humana podría ser gHM, una medida acumulativa de la modificación humana de las tierras terrestres basada en el modelado de la extensión física de 13 factores de estrés antropogénicos y sus impactos estimados utilizando conjuntos de datos globales espacialmente explícitos. 
@@ -20,7 +20,8 @@ Sin embargo, una variable más completa para medir el impacto de la actividad hu
 -  agricultura (tierras de cultivo, ganadería)
 -  transporte (carreteras principales, secundarias y de dos vías; ferrocarriles)
 -  minería y producción de energía
--  infraestructura eléctrica (líneas eléctricas, luces nocturnas)
+-  infraestructura eléctrica (líneas eléctricas, luces nocturnas)  
+
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm.png?raw=true)
 
 Ambas variables fueron comparadas e incorporadas en la construcción del modelo por separado. La correlación de Pearson entre las variables fue de un 0.705. ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm%20vs%20density.png?raw=true)
