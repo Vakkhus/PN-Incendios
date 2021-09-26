@@ -1,6 +1,4 @@
-# Welcome to StackEdit!
-Los modelos de distribución de probabilidad de ocurrencia de incendios 
-
+# Probabilidad de ocurrencia de incendios con GBM
 
 ## Datos de ocurrencia
 Corresponden al producto **MCD64A1 de MODIS ** , que emplea imágenes de reflectancia de espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
