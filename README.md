@@ -51,14 +51,14 @@ kmeans <- kmeans(data.frame(dftrain[3:21]), 10)
 El modelo GBM fue ajustado utilizando como variable respuesta la ocurrencia binarizada de incendios, y realizando un cross-validation entre los k-fold generados, optimizando el valor de RMSE.
 ```R
 fitControl= trainControl(method='cv', 
-						 index=indin, 
-						 indexOut = indout) 
+			 index=indin, 
+			 indexOut = indout) 
 #indin e indout son los índices de cada fold usado para el cross-validation
 model = train(Class ~ ., 
-			  data=dftrain[3:23], 
-			  method="gbm", 
-			  trControl=fitControl, 
-			  tuneGrid=gbmGrid)
+	      data=dftrain[3:23], 
+	      method="gbm", 
+	      trControl=fitControl, 
+	      tuneGrid=gbmGrid)
 ```
  Finalmente, usando el set de datos de validación apartado inicialmente se obtuvieron las métricas de exactitud y se procede a la proyección en los distintos escenarios de cambio climático. 
 
