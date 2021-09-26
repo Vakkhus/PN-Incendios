@@ -24,7 +24,8 @@ Sin embargo, una variable más completa para medir el impacto de la actividad hu
 
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm.png?raw=true)
 
-Ambas variables fueron comparadas e incorporadas en la construcción del modelo por separado. La correlación de Pearson entre las variables fue de un 0.705. ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm%20vs%20density.png?raw=true)
+Ambas variables fueron comparadas e incorporadas en la construcción del modelo por separado. La correlación de Pearson entre las variables fue de un 0.705.  
+![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm%20vs%20density.png?raw=true)
 
 ## Escenarios de cambio climático
 Los escenarios de cambio climático se compararon utilizando GCM compareR (Fajardo et al., 2020), considerando la temperatura media anual y la precipitación anual. La tabla de comparación escalada resultante entre escenarios futuros se utilizó para seleccionar los modelos que se utilizarían en el proyecto. Se usó el índice de estructura simple implementado por el paquete Vegan (Dolnicar et al., 1999; Oksanen et al., 2019) para probar y establecer el mejor número de clusters (entre dos y ocho) para representar los 32 MCG comparados. Se identificó y seleccionó, desde cada grupo hasta el GCM más cercano al centroide del grupo seleccionado. Los cinco GCMS seleccionados fueron **cesm1_bgc, gfdl_esm2g, ipsl_cm5a_lr, miroc_esm_chem y mpi_esm_lr** y los GCM seleccionados junto con los grupos se muestran en la figura.
