@@ -6,7 +6,7 @@ Corresponden al producto **MCD64A1 de MODIS ** , que emplea imágenes de reflect
 
 ## Variables bioclimáticas
 
-Se utilizaron los datos de **CHELSA** como variable climática. Estos datos fueron usados como predictores y las variables climáticas futuras CMIP5 (2050 y 2070) fueron utilizadas para los diferentes escenarios (rcp 4.5 y 8.5) ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
+Se utilizaron los datos de **CHELSA** como variable climática. Estos datos fueron usados como predictores y las variables climáticas futuras CMIP5 y CMIP6 (2061-2060 y 2041-2070 respectivamente) fueron utilizadas para los escenarios rcp 4.5, rcp 8.5, ssp 370 y 585) ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
 
 ## Influencia humana
 Dos variables fueron testeadas para incorporar el efecto producido por la influencia humana en la ocurrencia de incendios: La densidad poblacional (Columbia University, 2018) y la Modificación Humana Global (Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems))  por separado. 
@@ -31,9 +31,11 @@ Por otro lado, se calculó la correlación de Pearson entre cada par de proyecci
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/corr_pearson_(2).png?raw=true)
 
 ## Escenarios de cambio climático
-Los escenarios de cambio climático se compararon utilizando GCM compareR (Fajardo et al., 2020), considerando la temperatura media anual y la precipitación anual. La tabla de comparación escalada resultante entre escenarios futuros se utilizó para seleccionar los modelos que se utilizarían en el proyecto. Se usó el índice de estructura simple implementado por el paquete Vegan (Dolnicar et al., 1999; Oksanen et al., 2019) para probar y establecer el mejor número de clusters (entre dos y ocho) para representar los 32 MCG comparados. Se identificó y seleccionó, desde cada grupo hasta el GCM más cercano al centroide del grupo seleccionado. Los cinco GCMS seleccionados fueron **cesm1_bgc, gfdl_esm2g, ipsl_cm5a_lr, miroc_esm_chem y mpi_esm_lr** y los GCM seleccionados junto con los grupos se muestran en la figura.
+Los escenarios de cambio climático CMIP5 se compararon utilizando GCM compareR (Fajardo et al., 2020), considerando la temperatura media anual y la precipitación anual. La tabla de comparación escalada resultante entre escenarios futuros se utilizó para seleccionar los modelos que se utilizarían en el proyecto. Se usó el índice de estructura simple implementado por el paquete Vegan (Dolnicar et al., 1999; Oksanen et al., 2019) para probar y establecer el mejor número de clusters (entre dos y ocho) para representar los 32 MCG comparados. Se identificó y seleccionó, desde cada grupo hasta el GCM más cercano al centroide del grupo seleccionado. Los cinco GCMS seleccionados fueron **cesm1_bgc, gfdl_esm2g, ipsl_cm5a_lr, miroc_esm_chem y mpi_esm_lr** y los GCM seleccionados junto con los grupos se muestran en la figura.
 
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/modelos.png?raw=true)
+
+Para el caso de los escenarios de cambio climático CMIP6, se utilizaron los disponibles en CHELSA: CESM1-BGC, GFDL-ESM2G, IPSL-CM5A-LR, MICROC-ESM-CHEM y MPI-ESM-LR.
 
 ## Probabilidad de ocurrencia de incendios
 ### Boosted Regression Trees
@@ -69,6 +71,6 @@ model = train(Class ~ .,
 
 ### Proyección
 
-Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), junto con las variables de influencia humana. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
+Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con y sin las variables de influencia humana incluídas. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
 
 # [Resultados](https://github.com/Vakkhus/PN-Incendios/tree/main/Results/Raster)
