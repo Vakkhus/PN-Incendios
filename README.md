@@ -31,7 +31,7 @@ Por otro lado, se calculó la correlación de Pearson entre cada par de proyecci
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/corr_pearson_(2).png?raw=true)
 
 ## Escenarios de cambio climático
-Para el caso de los escenarios de cambio climático CMIP6, se utilizaron los disponibles en CHELSA: CESM1-BGC, GFDL-ESM2G, IPSL-CM5A-LR, MICROC-ESM-CHEM y MPI-ESM-LR.
+Para el caso de los escenarios de cambio climático CMIP6, se utilizaron los disponibles en CHELSA: DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL
 
 ## Probabilidad de ocurrencia de incendios
 ### Boosted Regression Trees
