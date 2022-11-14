@@ -23,10 +23,20 @@ Revisar libro de biodiversidad (COP25) y tambien el las SBN (ver adjuntos)
 Este análasis busca caracterizar las variables mejor asociadas a la ocurrencia de incedios a escala regional en Chile entre la región de Valparaíso y Los Lagos (32-44$^\circle$). Para esto, se usan datos de incendios de MODIS a una resolucion de 500m el pixel, la BD de Chelsa, para  asociar variables climáticas, y el Global Human Modification index para dar cuenta del impacto antrópico. Usando un método de Machine Learning (GBM) se determina:  (i) qué variables explican mejor la variabilidad espacial de incendios; (ii) incidencia de incendios en áreas protegidas ; (iii) cómo se proyecta la ocurrencia de incendios futuros usando la calibración del modelo generado en (i). Se evalúa el intervalo 2041-2070 bajo las recientes proyecciones de escenarios RCP 4.5, 8.5 (2060-2080) y SSP (4-6 y 5-8.5). Estos últimos  incluyen el efecto de  variables socio-ambientales en escenarios similares a los RCP;   Finalmente, (iv) se evalua la pérdida de carbono originada por incendios y el rol de las áreas protegidas para mitigar dichos efectos.
 
 
-## Datos de ocurrencia
-Corresponden al producto **MCD64A1 de MODIS ** , que emplea imágenes de reflectancia de espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
+## Datos 
+### Incendios
+La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emplea imágenes de reflectancia del espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
 ![Ocurrencia de incendios](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/Ocurrencias.png?raw=true)
 
+## Disponibilidad de carbono
+
+Se usó los datos de [Noon 2021](https://doi.org/10.1038/s41893-021-00803-6) para representar la disponibilidad de carbono secuestrado en el suelo.
+
+DESCRIBIR
+
+```
+Noon, Monica L., Allie Goldstein, Juan Carlos Ledezma, Patrick R. Roehrdanz, Susan C. Cook-Patton, Seth A. Spawn-Lee, Timothy Maxwell Wright et al. "Mapping the irrecoverable carbon in Earth’s ecosystems." Nature Sustainability 5, no. 1 (2022): 37-46 DOI:10.1038/s41893-021-00803-6.
+```
 
 ## Variables bioclimáticas
 
