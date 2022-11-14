@@ -18,6 +18,11 @@ Revisar libro de biodiversidad (COP25) y tambien el las SBN (ver adjuntos)
 - Goldstein, Allie, Will R. Turner, Seth A. Spawn, Kristina J. Anderson-Teixeira, Susan Cook-Patton, Joseph Fargione, Holly K. Gibbs, et al. “Protecting Irrecoverable Carbon in Earth’s Ecosystems.” Nature Climate Change 10, no. 4 (April 2020): 287–95. [https://doi.org/10.1038](https://doi.org/10.1038)
 
 
+## Objetivos
+
+Este análasis busca caracterizar las variables mejor asociadas a la ocurrencia de incedios a escala regional en Chile entre la región de Valparaíso y Los Lagos (32-44$^\circle$). Para esto, se usan datos de incendios de MODIS a una resolucion de 500m el pixel, la BD de Chelsa, para  asociar variables climáticas, y el Global Human Modification index para dar cuenta del impacto antrópico. Usando un método de Machine Learning (GBM) se determina:  i) qué variables explican mejor la variabilidad espacial de incendios, ii) cómo se proyecta la ocurrencia de incendios usando la calibracion del modelo generado en (i).
+
+
 ## Datos de ocurrencia
 Corresponden al producto **MCD64A1 de MODIS ** , que emplea imágenes de reflectancia de espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
 ![enter image description here](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/Ocurrencias.png?raw=true)
