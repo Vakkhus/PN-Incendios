@@ -1,4 +1,22 @@
-# Probabilidad de ocurrencia de incendios con GBM
+# Probabilidad de ocurrencia de incendios en Chile modelado con Machien learning (Gradient Boosted Machine)
+
+## Puntos para la intro
+
+1. Chile ha apostado a mitigar sus emisiones y adaptarse al cambio climático usando Soluciones Basadas en la Naturaleza, entre als cuales esta la reforestacion, la restauración, el mejoramiento del carbono en el suelo de predios agricolas, plantaciones forestales, entre otros. Toda estas soluciones sin embargo pueden verse afectadas negativamente en su implementación y en su eficacia debido aincendios forestales.
+
+2. La última decada ha sido particualrlemente prodiga en incendios de alto impacto no vistos en los últimos cien años. Los incendios no solo representan desastres ambientales que pueden llegar a ser severos incluso con pérdidas de vidas humanas y pueblos, como ocurrio en Chile en el 2017, sino que ademas afectan el carbon secuestrado en el suelo liebrando CO2 a la atmosfera. Este carbon es irrecuperable, pues tomaría ciento o miles de años para volver a capturarlo (Goldstein et al. 2020).
+
+3. Forest fire regimes are expected to change,  increasing in severity and event size (e.g., Flannigan et al. 2000, Iglesias et al. 2022) as has been recorded in the past due to abrupt climate changes  ( Marlon et al. 2009)
+
+4. In chile most fires are of human-driven and in some areas of Patagonia they increased markedly after the European colonization (Iglesias y Whitlock 2014). etc etc...
+
+Revisar libro de biodiversidad (COP25) y tambien el las SBN (ver adjuntos)
+
+ 
+- Iglesias, Virginia, Jennifer K. Balch, and William R. Travis. “U.S. Fires Became Larger, More Frequent, and More Widespread in the 2000s.” Science Advances 8, no. 11 (March 18, 2022): eabc0020. [https://doi.org/10.1126/sciadv.abc0020](https://doi.org/10.1126/sciadv.abc0020)
+
+- Goldstein, Allie, Will R. Turner, Seth A. Spawn, Kristina J. Anderson-Teixeira, Susan Cook-Patton, Joseph Fargione, Holly K. Gibbs, et al. “Protecting Irrecoverable Carbon in Earth’s Ecosystems.” Nature Climate Change 10, no. 4 (April 2020): 287–95. [https://doi.org/10.1038](https://doi.org/10.1038)
+
 
 ## Datos de ocurrencia
 Corresponden al producto **MCD64A1 de MODIS ** , que emplea imágenes de reflectancia de espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
