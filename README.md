@@ -1,4 +1,4 @@
-# Probabilidad de ocurrencia de incendios en Chile modelado con Machien learning (Gradient Boosted Machine)
+# Probabilidad de ocurrencia de incendios en Chile modelado con Machien learning (Gradient Boosted Machine) y su impacto en las reservas de carbono irrecuperable.
 
 ## Puntos para la intro
 
