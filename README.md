@@ -21,7 +21,7 @@ Este análasis busca identificar las variables mejor asociadas a la ocurrencia d
 
 ## Datos 
 ### Incendios
-La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emplea imágenes de reflectancia del espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada que identifica cuándo un píxel es definido como quemado o no, entre los añsos 2001 a 2020. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
+La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emplea imágenes de reflectancia del espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada para el territorio comprendido entre la región de O'Higgins y la región de Los Lagos, que identifica cuándo un píxel es definido como quemado o no, entre los añsos 2001 a 2020. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
 ![Ocurrencia de incendios](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/Ocurrencias.png?raw=true)
 
 ## Disponibilidad de carbono
@@ -36,7 +36,7 @@ Goldstein, A., Turner, W. R., Spawn, S. A., Anderson-Teixeira, K. J., Cook-Patto
 
 ## Variables bioclimáticas
 
-Se utilizaron los datos de alta resolución de **CHELSA** como variable climática. Las 19 variables bioclimáticas fueron usadas como predictores para la ocurrenciade incendios.
+Se utilizaron los datos de alta resolución de **CHELSA** como variable climática. Las 19 variables bioclimáticas fueron usadas como predictores para la ocurrencia de incendios.
 
 ```
 Dirk Nikolaus Karger; Olaf Conrad; Jürgen Böhner; Tobias Kawohl; Holger Kreft; Rodrigo Wilber Soria-Auza; Niklaus E. Zimmermann; H. Peter Linder; Michael Kessler (2021). Climatologies at high resolution for the earth’s land surface areas. EnviDat. doi: 10.16904/envidat.228.
@@ -65,7 +65,7 @@ Se consideró una aproximación de lenguaje de màquinas mediante el algoritmo d
 
 ### Proyección
 
-Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con la variable de influencia humana (GHM) incluída. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
+Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con la variable de influencia humana (GHM) incluída, ambas para la superficie comprendida entre las regiones de Valparaíso y Los Lagos. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
 
 ### Cálculo de pérdida potencial de carbono irrecuperable
 
