@@ -12,11 +12,7 @@
 
 Revisar libro de biodiversidad (COP25) y tambien el las SBN (ver adjuntos)
 
- 
 - Iglesias, Virginia, Jennifer K. Balch, and William R. Travis. “U.S. Fires Became Larger, More Frequent, and More Widespread in the 2000s.” Science Advances 8, no. 11 (March 18, 2022): eabc0020. [https://doi.org/10.1126/sciadv.abc0020](https://doi.org/10.1126/sciadv.abc0020)
-
-- Goldstein, Allie, Will R. Turner, Seth A. Spawn, Kristina J. Anderson-Teixeira, Susan Cook-Patton, Joseph Fargione, Holly K. Gibbs, et al. “Protecting Irrecoverable Carbon in Earth’s Ecosystems.” Nature Climate Change 10, no. 4 (April 2020): 287–95. [https://doi.org/10.1038](https://doi.org/10.1038)
-
 
 ## Objetivos
 
@@ -34,12 +30,17 @@ Se usó los datos de [Noon 2021](https://doi.org/10.1038/s41893-021-00803-6) par
 
 ```
 Noon, Monica L., Allie Goldstein, Juan Carlos Ledezma, Patrick R. Roehrdanz, Susan C. Cook-Patton, Seth A. Spawn-Lee, Timothy Maxwell Wright et al. "Mapping the irrecoverable carbon in Earth’s ecosystems." Nature Sustainability 5, no. 1 (2022): 37-46 DOI:10.1038/s41893-021-00803-6.
+
+Goldstein, A., Turner, W. R., Spawn, S. A., Anderson-Teixeira, K. J., Cook-Patton, S., Fargione, J., … Hole, D. G. (2020). Protecting irrecoverable carbon in Earth’s ecosystems. Nature Climate Change, 10(4), 287–295. doi:10.1038/s41558-020-0738-8 
 ```
 
 ## Variables bioclimáticas
 
-Se utilizaron los datos de **CHELSA** como variable climática. Estos datos fueron usados como predictores para la ocurrenciade incendios.
+Se utilizaron los datos de alta resolución de **CHELSA** como variable climática. Las 19 variables bioclimáticas fueron usadas como predictores para la ocurrenciade incendios.
 
+```
+Dirk Nikolaus Karger; Olaf Conrad; Jürgen Böhner; Tobias Kawohl; Holger Kreft; Rodrigo Wilber Soria-Auza; Niklaus E. Zimmermann; H. Peter Linder; Michael Kessler (2021). Climatologies at high resolution for the earth’s land surface areas. EnviDat. doi: 10.16904/envidat.228.
+```
 ### Escenarios climaticos
 Se usaron los escenarios CMIP5 y CMIP6 (2061-2060 y 2041-2070 respectivamente) fueron utilizadas para los escenarios rcp 4.5, rcp 8.5, ssp 370 y 585) ![Variables bioclimáticas](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
 
@@ -69,44 +70,19 @@ Por otro lado, se calculó la correlación de Pearson entre cada par de proyecci
 ![Correlación entre GHM y densidad poblacional](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/corr_pearson_(2).png?raw=true)
 
 ## Escenarios de cambio climático
-Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: XXX, YYY, ZZZ. Para en nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL disponibles en CHELSA.
+Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR. Para en nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL disponibles en CHELSA.
 
 ## Análisis
 
 ### Probabilidad de ocurrencia de incendios usando Boosted Regression Trees
-Se consideró una aproximación de lenguaje de màquinas mediante el algoritmo de `boosted regression trees` (BRT) para ajustar los modelos de ocurrencia de incendios, ya que ofrecen varias ventajas sobre otras técnicas de regresión. Los BRT son un tipo de técnica de aprendizaje automático que busca optimizar la precisión predictiva de los datos fuera de la muestra en un proceso iterativo mediante el uso de un conjunto de árboles de regresión. Al centrarse en la predicción, los BRT proporcionan una mejor estimación de la precisión predictiva en contraste con los modelos lineales generalizados tradicionales (por ejemplo, regresión lineal). Suelen evitar incluir variables irrelevantes, y las interacciones entre variables se incluyen de forma inherente sin necesidad de especificarlas a priori (Friedman, 2001; Friedman & Meulman, 2003). Además, los BRT pueden adaptarse a cualquier forma de respuesta y, por lo tanto, evitan la posibilidad de un desajuste. Sin embargo, debido a esta flexibilidad, la validación cruzada es necesaria para evitar el sobreajuste. Dado que los BRT dependen de métodos basados en árboles, el número de bifurcaciones de cada variable junto con la reducción del error residual en cada una de ellas se puede utilizar para calcular la contribución relativa de cada variable (Friedman & Popescu, 2008; Greenwell et al. , 2020). Realizamos una validación cruzada estructurada 10 veces para cada conjunto de entrenamiento para reducir el sobreajuste, seleccionando el mejor modelo optimizando el valor de Root Mean Squared Error (RSME) (Kuhn & Johnson, 2013). Esto se hizo usando el paquete **caret** (Kuhn, 2008) y árboles de regresión potenciados a través del paquete **gbm** (Greenwell et al., 2020).
-
-### Genaración de Modelos
-Los datos de área quemada, variables bioclimáticas y de población fueron agrupados y divididos aleatoriamente en un set de datos de entrenamiento (20%) y uno de testeo o validación (80%). Los datos de entrenamiento fueron divididos en 10 fold distribuídos espacialmente mediante la utilización de K-means para así controlar el sobreajuste. Además de reducir el sobreajuste del modelo busca controlar factores asociados a la autocorrelación espacial, pues asume que esta existe en variables bioclimáticas.
-
-```R
-df <- downSample(x = df[, -ncol(df)],y = df$ocurrencia)
-index=createDataPartition(df$Class,list=FALSE,p=0.8)
-dftrain=df[index,]
-dftest=df[-index,]
-kmeans <- kmeans(data.frame(dftrain[3:21]), 10)
-```
-![K Means](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/kmeansmap.png?raw=true)
-
-El modelo GBM fue ajustado utilizando como variable respuesta la ocurrencia binarizada de incendios, y realizando un cross-validation entre los k-fold generados, optimizando el valor de RMSE.
-
-```R
-fitControl= trainControl(method='cv', 
-			 index=indin, 
-			 indexOut = indout) 
-#indin e indout son los índices de cada fold usado para el cross-validation
-model = train(Class ~ ., 
-	      data=dftrain[3:23], 
-	      method="gbm", 
-	      trControl=fitControl, 
-	      tuneGrid=gbmGrid)
-```
- Finalmente, usando el set de datos de validación apartado inicialmente se obtuvieron las métricas de exactitud y se procede a la proyección en los distintos escenarios de cambio climático. 
+Se consideró una aproximación de lenguaje de màquinas mediante el algoritmo de `boosted regression trees` (BRT) para ajustar los modelos de ocurrencia de incendios, ya que ofrecen varias ventajas sobre otras técnicas de regresión. Los BRT son un tipo de técnica de aprendizaje automático que busca optimizar la precisión predictiva de los datos fuera de la muestra en un proceso iterativo mediante el uso de un conjunto de árboles de regresión. Al centrarse en la predicción, los BRT proporcionan una mejor estimación de la precisión predictiva en contraste con los modelos lineales generalizados tradicionales (por ejemplo, regresión lineal). Suelen evitar incluir variables irrelevantes, y las interacciones entre variables se incluyen de forma inherente sin necesidad de especificarlas a priori (Friedman, 2001; Friedman & Meulman, 2003). Además, los BRT pueden adaptarse a cualquier forma de respuesta y, por lo tanto, evitan la posibilidad de un desajuste. Sin embargo, debido a esta flexibilidad, la validación cruzada es necesaria para evitar el sobreajuste. Dado que los BRT dependen de métodos basados en árboles, el número de bifurcaciones de cada variable junto con la reducción del error residual en cada una de ellas se puede utilizar para calcular la contribución relativa de cada variable (Friedman & Popescu, 2008; Greenwell et al. , 2020). Realizamos una validación cruzada estructurada 10 veces para cada conjunto de entrenamiento, los cuales fueron seleccionados a partir del 80% de los datos utilizando K-means [(Stuart, 1982)](10.1109/TIT.1982.1056489) para reducir el sobreajuste y factores asociados a la autocorrelación espacial, pues se asume que esta existe en variables bioclimáticas. Así, se seleccionó el mejor modelo resultante a través de la optimización del valor de Root Mean Squared Error (RSME) (Kuhn & Johnson, 2013). Esto se hizo usando el paquete **caret** (Kuhn, 2008) y árboles de regresión potenciados a través del paquete **gbm** (Greenwell et al., 2020). Finalmente, usando un set de datos de validación apartado inicialmente (20 %) se obtuvieron las métricas de exactitud y se realizó la proyección en los distintos escenarios de cambio climático. 
 
 ![Resumen gráfico de métodos](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/diagrama_final.png?raw=true)
 
 ### Proyección
 
-Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con las variables de influencia humana incluídas. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
+Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con la variable de influencia humana (GHM) incluída. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
 
 # [Resultados](https://github.com/Vakkhus/PN-Incendios/tree/main/Results/Raster)
+
+
