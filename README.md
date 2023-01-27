@@ -45,32 +45,16 @@ Dirk Nikolaus Karger; Olaf Conrad; Jürgen Böhner; Tobias Kawohl; Holger Kreft;
 Se usaron los escenarios CMIP5 y CMIP6 (2061-2060 y 2041-2070 respectivamente) fueron utilizadas para los escenarios rcp 4.5, rcp 8.5, ssp 370 y 585) ![Variables bioclimáticas](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
 
 ## Influencia humana
-Se testearon dos indices de efecto antrópico en la ocurrencia de incendios: 
-1. La densidad poblacional (Columbia University, 2018) y 
- 
- Se cree que la mayoría de los incendios en el sur de Chile son causados por humanos, por usamos población como predictor de incendios.  
-![Densidad poblacional](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/poblacion.png?raw=true)
+Se cree que la mayoría de los incendios en el sur de Chile son causados por humanos [(Peña-Fernandez & Valenzuela-Palma, 2008)](https://www.fs.usda.gov/psw/publications/documents/psw_gtr208es/psw_gtr208es_595-612_pena-fernandez.pdf?iframe=true&width=95%&height=95%), por lo que se incluyó la Modificación Humana Global (GHM en inglés) como variable predictora. Este índice representa una medida acumulativa de la modificación humana basada en el modelado de la extensión física de 13 factores de estrés antropogénicos y sus impactos estimados utilizando conjuntos de datos globales espacialmente explícitos: asentamientos humanos (densidad de población, áreas urbanizada, agricultura (tierras de cultivo, ganadería), transporte (carreteras principales, secundarias y de dos vías; ferrocarriles, minería y producción de energía, infraestructura eléctrica (líneas eléctricas, luces nocturnas)(Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems)). 
 
-2. la Modificación Humana Global (GHM en inglés). 
+```
+Peña-Fernández, E., & Valenzuela-Palma, L. (2008). Incremento de los incendios forestales en bosques naturales y plantaciones forestales en Chile. In Memorias del segundo simposio internacional sobre políticas, planificación y economía de los programas de protección contra incendios forestales: Una visión global (pp. 595-612).
 
-Este índice representa  una medida acumulativa de la modificación humana basada en el modelado de la extensión física de 13 factores de estrés antropogénicos y sus impactos estimados utilizando conjuntos de datos globales espacialmente explícitos (Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems)). 
-
-- asentamientos humanos (densidad de población, áreas urbanizadas)
-- agricultura (tierras de cultivo, ganadería)
-- transporte (carreteras principales, secundarias y de dos vías; ferrocarriles)
-- minería y producción de energía
-- infraestructura eléctrica (líneas eléctricas, luces nocturnas)  
-
+```
 ![GHM](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm.png?raw=true)
 
-Ambas variables fueron comparadas e incorporadas en la construcción del modelo por separado. La correlación de Pearson entre las variables fue de un 0.705.  
-![GHM y densidad poblacional](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm%20vs%20density.png?raw=true)
-
-Por otro lado, se calculó la correlación de Pearson entre cada par de proyecciones realizadas, incluyendo la población en el modelo e incluyendo la modificación humana.  
-![Correlación entre GHM y densidad poblacional](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/corr_pearson_(2).png?raw=true)
-
 ## Escenarios de cambio climático
-Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR. Para en nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL disponibles en CHELSA.
+Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR, seleccionados a partir de .... . Para el nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL, seleccionados a partir de su disponibilidad en CHELSA.
 
 ## Análisis
 
@@ -83,6 +67,17 @@ Se consideró una aproximación de lenguaje de màquinas mediante el algoritmo d
 
 Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al., 2017), con la variable de influencia humana (GHM) incluída. Se realizó la proyección con cada uno de los modelos de cambio climático descritos anteriormente y finalmente, se promedió el resultado de todos los modelos para obtener una predicción resumida del efecto medio del cambio climático en la ocurrencia de incendios (Fajardo et al., 2020).
 
-# [Resultados](https://github.com/Vakkhus/PN-Incendios/tree/main/Results/Raster)
+### Cálculo de pérdida potencial de carbono irrecuperable
+
+Para el cálculo de la pérdida potencial de carbono irrecuperable, se multiplicó el valor de carbono irrecuperable y su incerteza asociada [(Noon 2021)](https://doi.org/10.1038/s41893-021-00803-6) y la probabilidad de ocurrencia de incendios para cada escenario de cambio climático proyectado. Posteriormente, se calculó la pérdida potencial de carbono irrecuperable dentro de cada una de las áreas protegidas administradas por el Servicio Nacional de Áreas Protegidas del Esado (SNASPE). 
+
+## RESULTADOS
+
+Mapas de fire ocurrence prob. 
+Mapas de Potential carbon loss.
+Mapas de potential carbon loss uncertainty.
+
+Mapa? de carbono perdido por AP y tabla asociada.
+
 
 
