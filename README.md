@@ -69,7 +69,7 @@ Se usaron las variables bioclimáticas de Chelsa como predictores (Karger et al.
 
 ### Cálculo de pérdida potencial de carbono irrecuperable
 
-Para el cálculo de la pérdida potencial de carbono irrecuperable, se multiplicó el valor de carbono irrecuperable y su incerteza asociada [(Noon 2021)](https://doi.org/10.1038/s41893-021-00803-6) y la probabilidad de ocurrencia de incendios para cada escenario de cambio climático proyectado. Posteriormente, se calculó la pérdida potencial de carbono irrecuperable dentro de cada una de las áreas protegidas administradas por el Servicio Nacional de Áreas Protegidas del Esado (SNASPE). 
+Para el cálculo de la pérdida potencial de carbono irrecuperable, se multiplicó el valor de carbono irrecuperable y su incerteza asociada [(Noon 2021)](https://doi.org/10.1038/s41893-021-00803-6) y la probabilidad de ocurrencia de incendios para cada escenario de cambio climático proyectado. Posteriormente, se calculó la pérdida potencial de carbono irrecuperable dentro de cada una de las áreas protegidas administradas por el Servicio Nacional de Áreas Protegidas del Esado (SNASPE) dentro del área de estudio. 
 
 ## RESULTADOS
 
