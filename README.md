@@ -84,11 +84,14 @@ El modelo seleccionado posee los parámetros n.trees = 11000, interaction.depth 
 
 ### Proyecciones
 
-### [Probabilidad de ocurrencia](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
+#### [Probabilidad de ocurrencia RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
+#### [Probabilidad de ocurrencia SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]ssp_prob_cu_ghm1.pdf)
 
-### Potential carbon loss
+#### [Potential carbon loss RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]rcp_prob_cu_ghm1.pdf)
+#### [Potential carbon loss SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]ssp_prob_cu_ghm1.pdf)
 
-#### Potential carbon loss uncertainty
+#### [Potential carbon loss uncertainty RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]rcp_prob_cu_ghm1.pdf)
+#### [Potential carbon loss uncertainty SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]ssp_prob_cu_ghm1.pdf)
 
 
 Mapa? de carbono perdido por AP y tabla asociada.
