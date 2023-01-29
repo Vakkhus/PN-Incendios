@@ -44,10 +44,6 @@ Se utilizaron los datos de alta resolución de **CHELSA** como variable climáti
 ```
 Dirk Nikolaus Karger; Olaf Conrad; Jürgen Böhner; Tobias Kawohl; Holger Kreft; Rodrigo Wilber Soria-Auza; Niklaus E. Zimmermann; H. Peter Linder; Michael Kessler (2021). Climatologies at high resolution for the earth’s land surface areas. EnviDat. doi: 10.16904/envidat.228.
 ```
-### Escenarios climaticos
-Se usaron los escenarios CMIP5 y CMIP6 (2061-2060 y 2041-2070 respectivamente) fueron utilizadas para los escenarios rcp 4.5, rcp 8.5, ssp 370 y 585) ![Variables bioclimáticas](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
-
-[figure]
 
 ## Influencia humana
 Se cree que la mayoría de los incendios en el sur de Chile son causados por humanos [(Peña-Fernandez & Valenzuela-Palma, 2008)](https://www.fs.usda.gov/psw/publications/documents/psw_gtr208es/psw_gtr208es_595-612_pena-fernandez.pdf?iframe=true&width=95%&height=95%), por lo que se incluyó la Modificación Humana Global (GHM en inglés) como variable predictora. Este índice representa una medida acumulativa de la modificación humana basada en el modelado de la extensión física de 13 factores de estrés antropogénicos y sus impactos estimados utilizando conjuntos de datos globales espacialmente explícitos: asentamientos humanos (densidad de población, áreas urbanizada, agricultura (tierras de cultivo, ganadería), transporte (carreteras principales, secundarias y de dos vías; ferrocarriles, minería y producción de energía, infraestructura eléctrica (líneas eléctricas, luces nocturnas)(Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems)). 
@@ -56,10 +52,10 @@ Se cree que la mayoría de los incendios en el sur de Chile son causados por hum
 Peña-Fernández, E., & Valenzuela-Palma, L. (2008). Incremento de los incendios forestales en bosques naturales y plantaciones forestales en Chile. In Memorias del segundo simposio internacional sobre políticas, planificación y economía de los programas de protección contra incendios forestales: Una visión global (pp. 595-612).
 
 ```
-![GHM](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/ghm.png?raw=true)
+[GHM figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/Global Human Modification.pdf)
 
 ## Escenarios de cambio climático
-Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR, seleccionados a partir de .... . Para el nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL, seleccionados a partir de su disponibilidad en CHELSA.
+Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR, seleccionados a partir de .... . Para el nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL, seleccionados a partir de su disponibilidad en CHELSA. Se usaron los escenarios 2061-2060 para los rcp 4.8 y 8.5 y 2041-2070 para los ssp 370 y 585.
 
 ## Análisis
 
@@ -67,6 +63,8 @@ Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Pa
 Se consideró una aproximación de lenguaje de màquinas mediante el algoritmo de `boosted regression trees` (BRT) para ajustar los modelos de ocurrencia de incendios, ya que ofrecen varias ventajas sobre otras técnicas de regresión. Los BRT son un tipo de técnica de aprendizaje automático que busca optimizar la precisión predictiva de los datos fuera de la muestra en un proceso iterativo mediante el uso de un conjunto de árboles de regresión. Al centrarse en la predicción, los BRT proporcionan una mejor estimación de la precisión predictiva en contraste con los modelos lineales generalizados tradicionales (por ejemplo, regresión lineal). Suelen evitar incluir variables irrelevantes, y las interacciones entre variables se incluyen de forma inherente sin necesidad de especificarlas a priori (Friedman, 2001; Friedman & Meulman, 2003). Además, los BRT pueden adaptarse a cualquier forma de respuesta y, por lo tanto, evitan la posibilidad de un desajuste. Sin embargo, debido a esta flexibilidad, la validación cruzada es necesaria para evitar el sobreajuste. Dado que los BRT dependen de métodos basados en árboles, el número de bifurcaciones de cada variable junto con la reducción del error residual en cada una de ellas se puede utilizar para calcular la contribución relativa de cada variable (Friedman & Popescu, 2008; Greenwell et al. , 2020). Realizamos una validación cruzada estructurada 10 veces para cada conjunto de entrenamiento, los cuales fueron seleccionados a partir del 80% de los datos utilizando K-means [(Stuart, 1982)](10.1109/TIT.1982.1056489) para reducir el sobreajuste y factores asociados a la autocorrelación espacial, pues se asume que esta existe en variables bioclimáticas. Así, se seleccionó el mejor modelo resultante a través de la optimización del valor de Root Mean Squared Error (RSME) (Kuhn & Johnson, 2013). Esto se hizo usando el paquete **caret** (Kuhn, 2008) y árboles de regresión potenciados a través del paquete **gbm** (Greenwell et al., 2020). Finalmente, usando un set de datos de validación apartado inicialmente (20 %) se obtuvieron las métricas de exactitud y se realizó la proyección en los distintos escenarios de cambio climático. 
 
 ![Resumen gráfico de métodos](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/diagrama_final.png?raw=true)
+
+[figure folds](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/train_test_folds.pdf)
 
 ### Proyección
 
@@ -78,9 +76,20 @@ Para el cálculo de la pérdida potencial de carbono irrecuperable, se multiplic
 
 ## RESULTADOS
 
-Mapas de fire ocurrence prob. 
-Mapas de Potential carbon loss.
-Mapas de potential carbon loss uncertainty.
+### Modelo
+
+El modelo seleccionado posee los parámetros n.trees = 11000, interaction.depth = 10, shrinkage = 0.1 y n.minobsinnode = 5 y posee un Accuracy de 0.84 y un valor Kappa de 0.68. Las variables de mayor importancia (>50%) fueron GHM, temperature seasonality (bio4), precipitation amount of the driest month (bio14) y annual precipitation amount (bio12).
+
+[figure variable importance](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/variable_importance.pdf)
+
+###Proyecciones
+
+## [Probabilidad de ocurrencia](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
+
+## Potential carbon loss
+
+## Potential carbon loss uncertainty
+
 
 Mapa? de carbono perdido por AP y tabla asociada.
 
