@@ -23,7 +23,7 @@ Este análasis busca identificar las variables mejor asociadas a la ocurrencia d
 ### Incendios
 La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emplea imágenes de reflectancia del espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada para el territorio comprendido entre la región de O'Higgins y la región de Los Lagos, que identifica cuándo un píxel es definido como quemado o no, entre los añsos 2001 a 2020. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
 
-[figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/Occurrence_MODIS.pdf)
+[ocurrence figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/Occurrence_MODIS.pdf)
 
 ## Disponibilidad de carbono
 
@@ -39,11 +39,15 @@ Goldstein, A., Turner, W. R., Spawn, S. A., Anderson-Teixeira, K. J., Cook-Patto
 
 Se utilizaron los datos de alta resolución de **CHELSA** como variable climática. Las 19 variables bioclimáticas fueron usadas como predictores para la ocurrencia de incendios.
 
+[bioclimatics figure](https://drive.google.com/file/d/1GktmcK5bf9Zfa4N3i76dh7qGQ0ZfLaQz/view?usp=sharing)
+
 ```
 Dirk Nikolaus Karger; Olaf Conrad; Jürgen Böhner; Tobias Kawohl; Holger Kreft; Rodrigo Wilber Soria-Auza; Niklaus E. Zimmermann; H. Peter Linder; Michael Kessler (2021). Climatologies at high resolution for the earth’s land surface areas. EnviDat. doi: 10.16904/envidat.228.
 ```
 ### Escenarios climaticos
 Se usaron los escenarios CMIP5 y CMIP6 (2061-2060 y 2041-2070 respectivamente) fueron utilizadas para los escenarios rcp 4.5, rcp 8.5, ssp 370 y 585) ![Variables bioclimáticas](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/bio.png?raw=true)
+
+[figure]
 
 ## Influencia humana
 Se cree que la mayoría de los incendios en el sur de Chile son causados por humanos [(Peña-Fernandez & Valenzuela-Palma, 2008)](https://www.fs.usda.gov/psw/publications/documents/psw_gtr208es/psw_gtr208es_595-612_pena-fernandez.pdf?iframe=true&width=95%&height=95%), por lo que se incluyó la Modificación Humana Global (GHM en inglés) como variable predictora. Este índice representa una medida acumulativa de la modificación humana basada en el modelado de la extensión física de 13 factores de estrés antropogénicos y sus impactos estimados utilizando conjuntos de datos globales espacialmente explícitos: asentamientos humanos (densidad de población, áreas urbanizada, agricultura (tierras de cultivo, ganadería), transporte (carreteras principales, secundarias y de dos vías; ferrocarriles, minería y producción de energía, infraestructura eléctrica (líneas eléctricas, luces nocturnas)(Kennedy et al., 2020, [Global Human Modification, gHM](https://sedac.ciesin.columbia.edu/data/set/lulc-human-modification-terrestrial-systems)). 
