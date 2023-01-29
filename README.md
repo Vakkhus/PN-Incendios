@@ -82,13 +82,13 @@ El modelo seleccionado posee los parámetros n.trees = 11000, interaction.depth 
 
 [figure variable importance](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/variable_importance.pdf)
 
-###Proyecciones
+### Proyecciones
 
-## [Probabilidad de ocurrencia](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
+### [Probabilidad de ocurrencia](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
 
-## Potential carbon loss
+### Potential carbon loss
 
-## Potential carbon loss uncertainty
+#### Potential carbon loss uncertainty
 
 
 Mapa? de carbono perdido por AP y tabla asociada.
