@@ -52,7 +52,7 @@ Se cree que la mayoría de los incendios en el sur de Chile son causados por hum
 Peña-Fernández, E., & Valenzuela-Palma, L. (2008). Incremento de los incendios forestales en bosques naturales y plantaciones forestales en Chile. In Memorias del segundo simposio internacional sobre políticas, planificación y economía de los programas de protección contra incendios forestales: Una visión global (pp. 595-612).
 
 ```
-[GHM figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/Global Human Modification.pdf)
+[GHM figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/GHM.pdf)
 
 ## Escenarios de cambio climático
 Se utilizaron distintos modelos de escenarios de cambio climático en CHELSA. Para los escenarios puramente climáticos basados en el los RCP (CMIP5), se usaron los siguientes modelos: GFDL_ESM2G, CESM1_BGC, MIROC_ESM_CHEM, MPI_ESM_LR e IPSL_CM5A_LR, seleccionados a partir de .... . Para el nuevo marco de proyección de cambio climático que incluye escenarios socio-ambientales, SSP (CMIP6), se utilizaron los modelos DFDL-ESM4, IPSL-CM6A-LR, MPI-ESM1-2-HR, MRI-ESM2-0, UKESM1-0-LL, seleccionados a partir de su disponibilidad en CHELSA. Se usaron los escenarios 2061-2060 para los rcp 4.8 y 8.5 y 2041-2070 para los ssp 370 y 585.
