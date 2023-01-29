@@ -22,7 +22,10 @@ Este análasis busca identificar las variables mejor asociadas a la ocurrencia d
 ## Datos 
 ### Incendios
 La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emplea imágenes de reflectancia del espectro radiómetros combinadas con observaciones de incendios activos. El algoritmo utiliza un índice de vegetación (VI) sensible a la combustión para crear umbrales dinámicos que se aplican a los datos compuestos e identifica la fecha de quema con una resolución espacial de 500m. A partir del producto se creó una capa binarizada para el territorio comprendido entre la región de O'Higgins y la región de Los Lagos, que identifica cuándo un píxel es definido como quemado o no, entre los añsos 2001 a 2020. [MCD64A1  v006](https://lpdaac.usgs.gov/products/mcd64a1v006/)
+
+![figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/Occurrence_MODIS.pdf)
 ![Ocurrencia de incendios](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/Plots/Ocurrencias.png?raw=true)
+
 
 ## Disponibilidad de carbono
 
