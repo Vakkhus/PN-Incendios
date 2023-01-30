@@ -87,22 +87,22 @@ El modelo seleccionado posee los parámetros n.trees = 11000, interaction.depth 
 ### Proyecciones
 
 #### Probabilidad de ocurrencia
-[Probabilidad de ocurrencia RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)
-[Probabilidad de ocurrencia SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]ssp_prob_cu_ghm1.pdf)
+[Probabilidad de ocurrencia RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]rcp_prob_cu_ghm1.pdf)__
+[Probabilidad de ocurrencia SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[prob]ssp_prob_cu_ghm1.pdf)__
 
 #### Pérdida potencial de carbono irrecuperable
-[Potential carbon loss RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]rcp_prob_cu_ghm1.pdf)
-[Potential carbon loss SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]ssp_prob_cu_ghm1.pdf)
+[Potential carbon loss RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]rcp_prob_cu_ghm1.pdf)__
+[Potential carbon loss SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[carbon]ssp_prob_cu_ghm1.pdf)__
 
 #### Incerteza asociada a la pérdida potencial de carbono irrecuperable
-[Potential carbon loss uncertainty RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]rcp_prob_cu_ghm1.pdf)
-[Potential carbon loss uncertainty SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]ssp_prob_cu_ghm1.pdf)
+[Potential carbon loss uncertainty RCP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]rcp_prob_cu_ghm1.pdf)__
+[Potential carbon loss uncertainty SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]ssp_prob_cu_ghm1.pdf)__
 
 
 #### Pérdida potencial de carbono irrecuperable en SNASPE (Parques y Reservas Nacionales)
-[pérdida en toneladas RCP]([ton]AP_rcp_prob_g1.pdf)
-[pérdida en toneladas SSP]([ton]AP_ssp_prob_g1.pdf)
-[pérdida en toneladas por hectárea RCP]([ton_ha]AP_rcp_prob_g1.pdf)
+[pérdida en toneladas RCP]([ton]AP_rcp_prob_g1.pdf)__
+[pérdida en toneladas SSP]([ton]AP_ssp_prob_g1.pdf)__
+[pérdida en toneladas por hectárea RCP]([ton_ha]AP_rcp_prob_g1.pdf)__
 [pérdida en toneladas por hectárea SSP]([ton_ha]AP_ssp_prob_g1.pdf)
 
 
