@@ -29,7 +29,7 @@ La ocurrencia de incendio corresponde al producto **MCD64A1** de MODIS. Este emp
 
 Se usó los datos de [Noon 2021](https://doi.org/10.1038/s41893-021-00803-6) para representar la disponibilidad de carbono irrecuperable, la fracción de carbono que puede ser afectado por la actividad humana, que es vulnerable a la pérdida debido a cambios de uso de suelo y que si se pierde no puede ser recuperado en un periodo de tiempo determinado [(Goldstein et al. 2020)](https://doi.org/10.1038/s41558-020-0738-8). 
 
-[carbon and urcertainty figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/carbon_and_cu.pdf)
+[carbon and uncertainty figure](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/carbon_and_cu.pdf)
 
 ```
 Noon, Monica L., Allie Goldstein, Juan Carlos Ledezma, Patrick R. Roehrdanz, Susan C. Cook-Patton, Seth A. Spawn-Lee, Timothy Maxwell Wright et al. "Mapping the irrecoverable carbon in Earth’s ecosystems." Nature Sustainability 5, no. 1 (2022): 37-46 DOI:10.1038/s41893-021-00803-6.
