@@ -99,7 +99,12 @@ El modelo seleccionado posee los parámetros n.trees = 11000, interaction.depth 
 [Potential carbon loss uncertainty SSP](https://github.com/Vakkhus/PN-Incendios/blob/main/Figures/270123/[uncert]ssp_prob_cu_ghm1.pdf)
 
 
-Mapa? de carbono perdido por AP y tabla asociada.
+#### Pérdida potencial de carbono irrecuperable en SNASPE (Parques y Reservas Nacionales)
+[pérdida en toneladas RCP]([ton]AP_rcp_prob_g1.pdf)
+[pérdida en toneladas SSP]([ton]AP_ssp_prob_g1.pdf)
+[pérdida en toneladas por hectárea RCP]([ton_ha]AP_rcp_prob_g1.pdf)
+[pérdida en toneladas por hectárea SSP]([ton_ha]AP_ssp_prob_g1.pdf)
+
 
 
 
